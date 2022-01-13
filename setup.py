@@ -7,10 +7,10 @@ with open("VERSION", 'r') as v:
 	read_ver = v.read()
 
 setup(
-	name = 'Laufeyson',
+	name = 'Virscan-py',
 	version = read_ver,
 	url = 'will be updated'
-	creator = 'Divya Goswami',
+	creator = 'HKSD',
 	email = 'updated'
 	description = read_desc,
 	content_type = "text/markdown",
