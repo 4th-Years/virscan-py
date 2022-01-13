@@ -1,0 +1,9 @@
+#!/home/divya/assignment/devu/laufeyson/env/bin/python
+##!/bin/python
+
+from core import __main__
+import sys
+
+if __name__ == '__main__':
+	if not sys.argv[1:]:
+		__main__.welcome()
