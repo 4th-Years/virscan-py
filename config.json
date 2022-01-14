@@ -1,0 +1,15 @@
+{
+	"meta": {
+		"name": "Virscan-py",
+		"description": "Scans input file/file hash for known viruses",
+		"version": "0.0.2",
+		"author": "Team HKSD (Hritik, Kshitij, Sayantan, Divya)"
+		},
+	"data": {
+		"source_link": "https://github.com/rachejazz/virscan-py/",
+		"env": "stage",
+		"dependencies": [
+			"python-requests"
+			]
+	}
+}
