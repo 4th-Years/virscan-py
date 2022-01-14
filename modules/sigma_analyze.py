@@ -24,5 +24,5 @@ def mod_run(self, util, q):
 	
 	self.output("Severity Stats:")
 	for each in value['data']['attributes']['severity_stats']:
-		self.list_output(each)
+		self.list_output(f"{each}: {value['data']['attributes']['severity_stats'][each]}")
 
