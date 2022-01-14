@@ -21,13 +21,4 @@ def mod_run(self, util, q):
 		self.output(each.replace('_', ' ').title()+':')
 		for every in value['data'][each]:
 			self.list_output(every)
-			
-
-
-
-
-
-
-
-
 

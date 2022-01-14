@@ -16,13 +16,13 @@ def options(self):
 def mod_run(self, util, q):
 	engine = getattr(u, util)
 	value = engine.run(self, q)
-	for each in value:
-		self.output(each)
-		headers = (' '*10).join(value[each][0])
-		self.list_output(headers.ljust(20))
-		for entries in value[each][1]:
-			elements = ''
-			for x in entries.contents:
-				if not x == '\n':
-					elements += x.string + '\t'
-			self.list_output(elements.ljust(20))
+
+	self.output("Rule Matches:")
+	for each in value['data']['attributes']['rule_matches']:
+		self.output(f"Rule Title: {each['rule_title']}")
+		self.list_output(f"Rule Level: {each['rule_level']}\nMatch Context:\n{each['match_context']}")
+	
+	self.output("Severity Stats:")
+	for each in value['data']['attributes']['severity_stats']:
+		self.list_output(each)
+

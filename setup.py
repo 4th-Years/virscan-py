@@ -1,18 +1,15 @@
 from setuptools import setup, find_packages
+import json
 
-with open("README.md", 'r') as desc:
-	read_desc = desc.read()
-
-with open("VERSION", 'r') as v:
-	read_ver = v.read()
+with open("config.json", "r") as config:
+	configs = json.loads(config.read())
 
 setup(
-	name = 'Virscan-py',
-	version = read_ver,
-	url = 'will be updated'
-	creator = 'HKSD',
-	email = 'updated'
-	description = read_desc,
+	name = configs['meta']['name'],
+	version = configs['meta']['version'],
+	url = configs['data']['source_link']
+	creator = configs['meta']['author']
+	description = configs['meta']['description'],
 	content_type = "text/markdown",
 	packages = find_packages()
 	install_requires = ['requests']

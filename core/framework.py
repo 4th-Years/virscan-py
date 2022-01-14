@@ -1,12 +1,15 @@
 import os
+import json
 import requests
 from core.rootdir import ROOT_DIR
 import modules as m
 import core.utils as u
 
-__author__ = 'Team HKSD (Hritik, Kshitij, Sayantan, Divya)'
-with open("VERSION", 'r') as v:
-	__version__ = v.read().strip('\n')
+with open("config.json", "r") as config:
+	configs = json.loads(config.read())
+
+__version__ = configs['meta']['version']
+__author__ = configs['meta']['author']
 
 class Colors(object):
 	R = '\033[31m'

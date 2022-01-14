@@ -30,4 +30,3 @@ def mod_run(self, util, q):
 	for each in data_results:
 		self.list_output(f"{each}: {data_results[each]['category']}")
 	
-
