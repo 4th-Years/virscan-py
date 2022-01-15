@@ -19,11 +19,11 @@
         "timeout": 0,
         "failure": 1,
         "malicious": 0,
-        "undetected": 57
+        "detected": 57
       },
       "results": {
         "Bkav": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Bkav",
           "engine_version": "1.3.0.9899",
           "result": null,
@@ -47,7 +47,7 @@
             "result": "Win32:Dh-A [Heur]"
         },
         "Avast-Mobile": {
-            "category": "undetected",
+            "category": "detected",
             "engine_name": "Avast-Mobile",
             "engine_update": "20200609",
             "engine_version": "200609-00",
@@ -71,7 +71,7 @@
             "result": "Win.Trojan.Dialer-83"
         },
 		"CAT-QuickHeal": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "CAT-QuickHeal",
           "engine_version": "14.00",
           "result": null,
@@ -79,7 +79,7 @@
           "engine_update": "20220112"
         },
         "ALYac": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "ALYac",
           "engine_version": "1.1.3.1",
           "result": null,
@@ -87,7 +87,7 @@
           "engine_update": "20220112"
         },
         "Malwarebytes": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Malwarebytes",
           "engine_version": "4.2.2.27",
           "result": null,
@@ -95,7 +95,7 @@
           "engine_update": "20220112"
         },
         "Zillya": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Zillya",
           "engine_version": "2.0.0.4543",
           "result": null,
@@ -103,7 +103,7 @@
           "engine_update": "20220112"
         },
         "Sangfor": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Sangfor",
           "engine_version": "2.9.0.0",
           "result": null,
@@ -111,7 +111,7 @@
           "engine_update": "20211224"
         },
         "K7AntiVirus": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "K7AntiVirus",
           "engine_version": "11.241.40302",
           "result": null,
@@ -127,7 +127,7 @@
           "engine_update": "20190527"
         },
         "K7GW": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "K7GW",
           "engine_version": "11.241.40265",
           "result": null,
@@ -143,7 +143,7 @@
           "engine_update": "20220112"
         },
         "Baidu": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Baidu",
           "engine_version": "1.0.0.2",
           "result": null,
@@ -151,7 +151,7 @@
           "engine_update": "20190318"
         },
         "VirIT": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "VirIT",
           "engine_version": "9.5.109",
           "result": null,
@@ -159,7 +159,7 @@
           "engine_update": "20220112"
         },
         "Cyren": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Cyren",
           "engine_version": "6.5.1.2",
           "result": null,
@@ -175,7 +175,7 @@
           "engine_update": "20211119"
         },
         "Symantec": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Symantec",
           "engine_version": "1.16.0.0",
           "result": null,
@@ -183,7 +183,7 @@
           "engine_update": "20220112"
         },
         "ESET-NOD32": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "ESET-NOD32",
           "engine_version": "24607",
           "result": null,
@@ -199,7 +199,7 @@
           "engine_update": "20220110"
         },
         "TrendMicro-HouseCall": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "TrendMicro-HouseCall",
           "engine_version": "10.0.0.1040",
           "result": null,
@@ -207,7 +207,7 @@
           "engine_update": "20220112"
         },
         "Avast": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Avast",
           "engine_version": "21.1.5827.0",
           "result": null,
@@ -215,7 +215,7 @@
           "engine_update": "20220112"
         },
         "Cynet": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Cynet",
           "engine_version": "4.0.0.27",
           "result": null,
@@ -223,7 +223,7 @@
           "engine_update": "20220112"
         },
         "Kaspersky": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Kaspersky",
           "engine_version": "21.0.1.45",
           "result": null,
@@ -231,7 +231,7 @@
           "engine_update": "20220112"
         },
         "BitDefender": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "BitDefender",
           "engine_version": "7.2",
           "result": null,
@@ -239,7 +239,7 @@
           "engine_update": "20220112"
         },
         "NANO-Antivirus": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "NANO-Antivirus",
           "engine_version": "1.0.146.25520",
           "result": null,
@@ -247,7 +247,7 @@
           "engine_update": "20220112"
         },
         "SUPERAntiSpyware": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "SUPERAntiSpyware",
           "engine_version": "5.6.0.1032",
           "result": null,
@@ -255,7 +255,7 @@
           "engine_update": "20220111"
         },
         "MicroWorld-eScan": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "MicroWorld-eScan",
           "engine_version": "14.0.409.0",
           "result": null,
@@ -263,7 +263,7 @@
           "engine_update": "20220112"
         },
         "Tencent": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Tencent",
           "engine_version": "1.0.0.1",
           "result": null,
@@ -271,7 +271,7 @@
           "engine_update": "20220112"
         },
         "Ad-Aware": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Ad-Aware",
           "engine_version": "3.0.21.193",
           "result": null,
@@ -279,7 +279,7 @@
           "engine_update": "20220112"
         },
         "Sophos": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Sophos",
           "engine_version": "1.4.1.0",
           "result": null,
@@ -287,7 +287,7 @@
           "engine_update": "20220112"
         },
         "Comodo": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Comodo",
           "engine_version": "34257",
           "result": null,
@@ -295,7 +295,7 @@
           "engine_update": "20220112"
         },
         "F-Secure": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "F-Secure",
           "engine_version": "12.0.86.52",
           "result": null,
@@ -303,7 +303,7 @@
           "engine_update": "20220112"
         },
         "DrWeb": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "DrWeb",
           "engine_version": "7.0.52.8270",
           "result": null,
@@ -311,7 +311,7 @@
           "engine_update": "20220112"
         },
         "VIPRE": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "VIPRE",
           "engine_version": "98326",
           "result": null,
@@ -319,7 +319,7 @@
           "engine_update": "20220112"
         },
         "TrendMicro": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "TrendMicro",
           "engine_version": "11.0.0.1006",
           "result": null,
@@ -327,7 +327,7 @@
           "engine_update": "20220112"
         },
         "McAfee-GW-Edition": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "McAfee-GW-Edition",
           "engine_version": "v2019.1.2+3728",
           "result": null,
@@ -343,7 +343,7 @@
           "engine_update": "20211129"
         },
         "CMC": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "CMC",
           "engine_version": "2.10.2019.1",
           "result": null,
@@ -351,7 +351,7 @@
           "engine_update": "20211026"
         },
         "Emsisoft": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Emsisoft",
           "engine_version": "2021.5.0.7597",
           "result": null,
@@ -367,7 +367,7 @@
           "engine_update": "20220112"
         },
         "GData": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "GData",
           "engine_version": "A:25.32008B:27.25843",
           "result": null,
@@ -375,7 +375,7 @@
           "engine_update": "20220112"
         },
         "Jiangmin": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Jiangmin",
           "engine_version": "16.0.100",
           "result": null,
@@ -391,7 +391,7 @@
           "engine_update": "20220112"
         },
         "Avira": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Avira",
           "engine_version": "8.3.3.12",
           "result": null,
@@ -407,7 +407,7 @@
           "engine_update": "20220112"
         },
         "Antiy-AVL": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Antiy-AVL",
           "engine_version": "3.0.0.1",
           "result": null,
@@ -415,7 +415,7 @@
           "engine_update": "20220112"
         },
         "Kingsoft": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Kingsoft",
           "engine_version": "2017.9.26.565",
           "result": null,
@@ -423,7 +423,7 @@
           "engine_update": "20220112"
         },
         "Gridinsoft": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Gridinsoft",
           "engine_version": "1.0.69.171",
           "result": null,
@@ -431,7 +431,7 @@
           "engine_update": "20220112"
         },
         "Arcabit": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Arcabit",
           "engine_version": "1.0.0.888",
           "result": null,
@@ -439,7 +439,7 @@
           "engine_update": "20220112"
         },
         "ViRobot": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "ViRobot",
           "engine_version": "2014.3.20.0",
           "result": null,
@@ -455,7 +455,7 @@
           "engine_update": "20220112"
         },
         "Microsoft": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Microsoft",
           "engine_version": "1.1.18800.4",
           "result": null,
@@ -463,7 +463,7 @@
           "engine_update": "20220112"
         },
         "TACHYON": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "TACHYON",
           "engine_version": "2022-01-12.02",
           "result": null,
@@ -479,7 +479,7 @@
           "engine_update": "20220103"
         },
         "AhnLab-V3": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "AhnLab-V3",
           "engine_version": "3.21.2.10258",
           "result": null,
@@ -495,7 +495,7 @@
           "engine_update": "20210512"
         },
         "McAfee": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "McAfee",
           "engine_version": "6.0.6.653",
           "result": null,
@@ -503,7 +503,7 @@
           "engine_update": "20220112"
         },
         "MAX": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "MAX",
           "engine_version": "2019.9.16.1",
           "result": null,
@@ -511,7 +511,7 @@
           "engine_update": "20220112"
         },
         "VBA32": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "VBA32",
           "engine_version": "5.0.0",
           "result": null,
@@ -527,7 +527,7 @@
           "engine_update": "20220112"
         },
         "Zoner": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Zoner",
           "engine_version": "2.2.2.0",
           "result": null,
@@ -535,7 +535,7 @@
           "engine_update": "20220111"
         },
         "Rising": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Rising",
           "engine_version": "25.0.0.27",
           "result": null,
@@ -543,7 +543,7 @@
           "engine_update": "20220112"
         },
         "Yandex": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Yandex",
           "engine_version": "5.5.2.24",
           "result": null,
@@ -551,7 +551,7 @@
           "engine_update": "20220112"
         },
         "Ikarus": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Ikarus",
           "engine_version": "0.1.5.2",
           "result": null,
@@ -559,7 +559,7 @@
           "engine_update": "20220112"
         },
         "MaxSecure": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "MaxSecure",
           "engine_version": "1.0.0.1",
           "result": null,
@@ -567,7 +567,7 @@
           "engine_update": "20220105"
         },
         "Fortinet": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Fortinet",
           "engine_version": "6.2.142.0",
           "result": null,
@@ -575,7 +575,7 @@
           "engine_update": "20220112"
         },
         "BitDefenderTheta": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "BitDefenderTheta",
           "engine_version": "7.2.37796.0",
           "result": null,
@@ -591,7 +591,7 @@
           "engine_update": "20210330"
         },
         "Panda": {
-          "category": "undetected",
+          "category": "detected",
           "engine_name": "Panda",
           "engine_version": "4.6.4.2",
           "result": null,

@@ -5,7 +5,7 @@ meta = {
 		'name': 'File Analyzer',
 		'version': '0.0.1',
 		'description': 'Analyzes file with several antivirus softwares.',
-		'syntax': 'dns_record -q <SHA256 file hash>'
+		'syntax': 'analyze_file -q <SHA256 file hash>'
 }
 
 def options(self):
