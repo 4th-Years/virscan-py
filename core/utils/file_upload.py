@@ -6,7 +6,7 @@ def run(self, q):
 	send_records = {}
 	try:
 		self.info(f"file upload: Uploading ...")
-		url_prod = f"https://dns-lookup.com/{q}"
+		url_prod = f"https://www.virustotal.com/api/v3/files"
 		url_stage = "http://localhost:9000/fileupload.json"
 		res = self.request('GET',url=url_stage)
 		data = res.json()
