@@ -1,0 +1,23 @@
+#popup {
+	height: 350px;
+	width: 200px;
+	padding: 0px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.center {
+	margin: 0 auto;
+}
+
+div.result {
+	box-sizing: border-box;
+	border: solid;
+	height: 100%;
+	width: 100%;
+}
+
+img {
+	height: 70%;
+	width: 100%;
+}
