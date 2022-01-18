@@ -1,5 +1,6 @@
 import core as u
 import re
+import time
 
 meta = {
 		'name': 'All Behaviour File Report',
@@ -17,6 +18,7 @@ def mod_run(self, util, q):
 	engine = getattr(u, util)
 	value = engine.run(self, q)
 	
+	time.sleep(5)
 	for each in value['data']:
 		self.output(each.replace('_', ' ').title()+':')
 		for every in value['data'][each]:

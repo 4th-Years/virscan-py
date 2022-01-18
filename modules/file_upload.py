@@ -1,5 +1,6 @@
 import core as u
 import re
+import time
 
 meta = {
 		'name': 'File Uploader',
@@ -16,6 +17,6 @@ def options(self):
 def mod_run(self, util, q):
 	engine = getattr(u, util)
 	value = engine.run(self, q)
-
+	time.sleep(5)
 	self.output(f"File Uploaded Successfully!\nFile Analysis id: {value['data']['id']}")
 

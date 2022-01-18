@@ -1,5 +1,6 @@
 import core as u
 import re
+import time
 
 meta = {
 		'name': 'Sigma Analyzer',
@@ -17,6 +18,7 @@ def mod_run(self, util, q):
 	engine = getattr(u, util)
 	value = engine.run(self, q)
 
+	time.sleep(5)
 	self.output("Rule Matches:")
 	for each in value['data']['attributes']['rule_matches']:
 		self.output(f"Rule Title: {each['rule_title']}")

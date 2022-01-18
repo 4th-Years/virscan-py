@@ -7,7 +7,7 @@ def run(self, q):
 	try:
 		self.info(f"Analyzing file id {q}...")
 		url_prod = f"https://www.virustotal.com/api/v3/analyses/{q}"
-		url_stage = f"http://localhost:9000/fileanalysis.json"
+		url_stage = f"http://localhost:9000/filereport.json"
 		res = self.request('GET',url=url_stage)
 		data = res.json()
 	except:
