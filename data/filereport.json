@@ -25,11 +25,11 @@
       },
       "size": 358,
       "popular_threat_classification": {
-        "suggested_threat_label": "eicar",
+        "suggested_threat_label": "trojan",
         "popular_threat_name": [
           {
             "count": 2,
-            "value": "eicar"
+            "value": "trojan"
           }
         ]
       },
@@ -620,7 +620,7 @@
           "engine_update": null
         }
       },
-      "sha256": "b136c1391d605b038228e79bc6f1f0879c79d29371f1fa0348d19241455074fb",
+      "sha256": "a8b5c21389cc04a31c5ddaba3ea6221110e30456faffc312b33a40567916ff4f",
       "type_extension": "zip",
       "tags": [
         "zip"
@@ -629,8 +629,8 @@
       "unique_sources": 1,
       "first_submission_date": 1642523107,
       "ssdeep": "6:59lagKufAkoBvfW0dTpDAJuOgzskozj91W0aNpW+lIt9xvlagKuf/yAoBLl+l/I:5vagJKBXW0dFAdko91W0aeaY9xvlagJg",
-      "md5": "e9f453e237328077f010dae382631372",
-      "sha1": "af8533a571bf002d17ab7bab5c4cdc6172fc6134",
+      "md5": "8af6854ef37b4038312afe593ec455ee",
+      "sha1": "fbbecaed6fff0bb1d467949fe5afcfb104622afb",
       "magic": "Zip archive data, at least v1.0 to extract",
       "last_analysis_stats": {
         "harmless": 0,
